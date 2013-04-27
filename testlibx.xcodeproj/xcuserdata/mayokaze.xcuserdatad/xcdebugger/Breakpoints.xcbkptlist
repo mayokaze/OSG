@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "1.0">
+   <FileBreakpoints>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "../../../Downloads/OSG&#31243;&#24207;&#35774;&#35745;&#25945;&#31243;&#65288;&#38468;&#20070;&#28304;&#30721;&#65289;/10&#31532;&#21313;&#31456;&#25991;&#23383;&amp;&#38452;&#24433;/30.HUD&#21160;&#24577;&#26174;&#31034;&#24403;&#21069;&#20301;&#32622;/30.HUD&#21160;&#24577;&#26174;&#31034;&#24403;&#21069;&#20301;&#32622;/South.cpp"
+         timestampString = "387311966.37445"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "83"
+         endingLineNumber = "83"
+         landmarkName = "CSouth::handle(const osgGA::GUIEventAdapter &amp;ea, osgGA::GUIActionAdapter &amp;us)"
+         landmarkType = "5">
+      </FileBreakpoint>
+   </FileBreakpoints>
+</Bucket>
