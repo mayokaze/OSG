@@ -1,0 +1,88 @@
+//
+//  util.h
+//  testlibx
+//
+//  Created by MayoKaze on 5/6/13.
+//  Copyright (c) 2013 MayoKaze. All rights reserved.
+//
+
+#ifndef testlibx_util_h
+#define testlibx_util_h
+
+#include <stdlib.h>
+#include <osgManipulator/TabBoxDragger>
+#include <osgManipulator/TabBoxTrackballDragger>
+#include <osgManipulator/TabPlaneDragger>
+#include <osgManipulator/TabPlaneTrackballDragger>
+#include <osgManipulator/TrackballDragger>
+#include <osgManipulator/Translate1DDragger>
+#include <osgManipulator/Translate2DDragger>
+#include <osgManipulator/TranslateAxisDragger>
+#include <osgManipulator/RotateSphereDragger>
+
+
+template<typename t>
+t randNumber(t min, t max)
+{
+	return (((t)rand()/(t)RAND_MAX)*(max-min))+min;
+}
+
+
+inline void randColor(float* color)
+{
+  if(color)
+    {
+      color[0]=randNumber(0.0f,1.0f);
+      color[1]=randNumber(0.0f,1.0f);
+      color[2]=randNumber(0.0f,1.0f);
+      color[3]=1.0f;
+    }
+}
+
+inline osgManipulator::Dragger* createDragger(const std::string& name)
+{
+    osgManipulator::Dragger* dragger = 0;
+    if ("TabPlaneDragger" == name)
+    {
+        dragger = new osgManipulator::TabPlaneDragger();
+    }
+    else if ("TabPlaneTrackballDragger" == name)
+    {
+        dragger = new osgManipulator::TabPlaneTrackballDragger();
+    }
+    else if ("TabBoxTrackballDragger" == name)
+    {
+        dragger = new osgManipulator::TabBoxTrackballDragger();
+    }
+    else if ("TrackballDragger" == name)
+    {
+        dragger = new osgManipulator::TrackballDragger();
+    }
+    else if ("Translate1DDragger" == name)
+    {
+        dragger = new osgManipulator::Translate1DDragger();
+    }
+    else if ("Translate2DDragger" == name)
+    {
+        dragger = new osgManipulator::Translate2DDragger();
+    }
+    else if ("TranslateAxisDragger" == name)
+    {
+        dragger = new osgManipulator::TranslateAxisDragger();
+    }
+    else if ("RotateSphereDragger" == name)
+    {
+        dragger = new osgManipulator::RotateSphereDragger();
+    }
+    else
+    {
+        dragger = new osgManipulator::TabBoxDragger();
+    }
+    
+	if (dragger) {
+        dragger->setupDefaultGeometry();
+	}
+    
+    return dragger;
+}
+#endif

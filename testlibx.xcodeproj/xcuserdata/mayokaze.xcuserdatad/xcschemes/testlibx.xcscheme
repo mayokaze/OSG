@@ -59,11 +59,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "/Users/mayokaze/Desktop/cg/raaRobot.osg"
-            isEnabled = "YES">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "/Users/mayokaze/Desktop/OSG&#31243;&#24207;&#35774;&#35745;&#25945;&#31243;&#65288;&#38468;&#20070;&#28304;&#30721;&#65289;/6&#31532;&#20845;&#31456;&#28459;&#28216;/17.&#36335;&#24452;&#28459;&#28216;/RambleSystem/glider.osg"
+            argument = "robot.osg"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>

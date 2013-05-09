@@ -7,13 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AD32AEEB1715F78500F7DE2A /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD32AEEA1715F78500F7DE2A /* OpenGL.framework */; };
-		AD32AEED1715F78D00F7DE2A /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD32AEEC1715F78D00F7DE2A /* GLUT.framework */; };
-		AD740830172A490A005FEA97 /* raaOSGPrintVisitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD74082B172A48D4005FEA97 /* raaOSGPrintVisitor.cpp */; };
-		AD740831172A490A005FEA97 /* raaOSGPrintVisitor.h in Sources */ = {isa = PBXBuildFile; fileRef = AD74082C172A48D4005FEA97 /* raaOSGPrintVisitor.h */; };
-		AD740832172A490A005FEA97 /* raaOSGSimpleDemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD74082D172A48D4005FEA97 /* raaOSGSimpleDemo.cpp */; };
-		AD740833172A490A005FEA97 /* raaOSGSimpleEventHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD74082E172A48D4005FEA97 /* raaOSGSimpleEventHandler.cpp */; };
-		AD740834172A490A005FEA97 /* raaOSGSimpleEventHandler.h in Sources */ = {isa = PBXBuildFile; fileRef = AD74082F172A48D4005FEA97 /* raaOSGSimpleEventHandler.h */; };
+		AD041FD7172FA71800FE891A /* InitVisitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD041FD5172FA71800FE891A /* InitVisitor.cpp */; };
+		AD7409C4172CC0CA005FEA97 /* FindNodeVisitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7409C2172CC0CA005FEA97 /* FindNodeVisitor.cpp */; };
+		AD7409C7172CC3D5005FEA97 /* RobotUpdator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7409C5172CC3D5005FEA97 /* RobotUpdator.cpp */; };
+		AD7409CE172E5503005FEA97 /* RobotHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7409CC172E5503005FEA97 /* RobotHandler.cpp */; };
+		AD7409D3172E9E8D005FEA97 /* Commander.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7409D2172E9E8D005FEA97 /* Commander.cpp */; };
+		ADBB659A1736708200C88086 /* RobotCallback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADBB65981736708200C88086 /* RobotCallback.cpp */; };
+		ADBB66FF17381F9200C88086 /* OSGShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADBB66FD17381F9200C88086 /* OSGShape.cpp */; };
+		ADBB67121739CD7C00C88086 /* AddEventHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADBB67101739CD7B00C88086 /* AddEventHandler.cpp */; };
+		ADBB6715173A2E2800C88086 /* OSGGeometry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADBB6713173A2E2800C88086 /* OSGGeometry.cpp */; };
+		ADBB6718173A328F00C88086 /* OSGDrawable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADBB6716173A328F00C88086 /* OSGDrawable.cpp */; };
+		ADBB671F173A9FA100C88086 /* PickerHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADBB671D173A9F9F00C88086 /* PickerHandler.cpp */; };
+		ADBB6722173AB8B700C88086 /* DeSelectVisitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADBB6720173AB8B600C88086 /* DeSelectVisitor.cpp */; };
+		ADBB6725173AD37200C88086 /* CameraRecordHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADBB6723173AD37000C88086 /* CameraRecordHandler.cpp */; };
+		ADBB672B173ADC2700C88086 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADBB6726173ADBB800C88086 /* main.cpp */; };
+		ADBB672C173ADC2700C88086 /* PrintVisitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADBB6727173ADBB800C88086 /* PrintVisitor.cpp */; };
+		ADBB672D173ADC2700C88086 /* SimpleEventHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADBB6729173ADBBA00C88086 /* SimpleEventHandler.cpp */; };
+		ADBB6730173AE39900C88086 /* FxHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADBB672E173AE39700C88086 /* FxHandler.cpp */; };
+		ADBB6733173AE89300C88086 /* OSGFx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADBB6731173AE89100C88086 /* OSGFx.cpp */; };
+		ADBB6736173B6FC100C88086 /* DraggerSwitch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADBB6734173B6FC000C88086 /* DraggerSwitch.cpp */; };
+		ADBB673C173B741600C88086 /* OSGDraggers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADBB673A173B741500C88086 /* OSGDraggers.cpp */; };
+		ADBB673F173B95DA00C88086 /* DraggerSwitchHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADBB673D173B95D900C88086 /* DraggerSwitchHandler.cpp */; };
+		ADBB6742173BA3F200C88086 /* FileHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADBB6740173BA3F100C88086 /* FileHandler.cpp */; };
+		ADBB6745173BA43700C88086 /* SaveVisitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADBB6743173BA43600C88086 /* SaveVisitor.cpp */; };
 		ADC43A491715BCD3002296E7 /* libOpenThreads.2.6.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A151715BCD3002296E7 /* libOpenThreads.2.6.0.dylib */; };
 		ADC43A4A1715BCD3002296E7 /* libOpenThreads.12.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A161715BCD3002296E7 /* libOpenThreads.12.dylib */; };
 		ADC43A4B1715BCD3002296E7 /* libOpenThreads.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A171715BCD3002296E7 /* libOpenThreads.dylib */; };
@@ -65,85 +81,7 @@
 		ADC43A791715BCD3002296E7 /* libosgWidget.3.1.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A451715BCD3002296E7 /* libosgWidget.3.1.2.dylib */; };
 		ADC43A7A1715BCD3002296E7 /* libosgWidget.92.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A461715BCD3002296E7 /* libosgWidget.92.dylib */; };
 		ADC43A7B1715BCD3002296E7 /* libosgWidget.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A471715BCD3002296E7 /* libosgWidget.dylib */; };
-		ADC43ACB1715BE90002296E7 /* osgdb_3dc.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A7C1715BE8F002296E7 /* osgdb_3dc.so */; };
-		ADC43ACC1715BE90002296E7 /* osgdb_3ds.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A7D1715BE8F002296E7 /* osgdb_3ds.so */; };
-		ADC43ACD1715BE90002296E7 /* osgdb_ac.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A7E1715BE8F002296E7 /* osgdb_ac.so */; };
-		ADC43ACE1715BE90002296E7 /* osgdb_bmp.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A7F1715BE8F002296E7 /* osgdb_bmp.so */; };
-		ADC43ACF1715BE90002296E7 /* osgdb_bsp.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A801715BE8F002296E7 /* osgdb_bsp.so */; };
-		ADC43AD01715BE90002296E7 /* osgdb_bvh.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A811715BE8F002296E7 /* osgdb_bvh.so */; };
-		ADC43AD11715BE90002296E7 /* osgdb_cfg.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A821715BE8F002296E7 /* osgdb_cfg.so */; };
-		ADC43AD21715BE90002296E7 /* osgdb_curl.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A831715BE8F002296E7 /* osgdb_curl.so */; };
-		ADC43AD31715BE90002296E7 /* osgdb_dds.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A841715BE8F002296E7 /* osgdb_dds.so */; };
-		ADC43AD41715BE90002296E7 /* osgdb_deprecated_osg.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A851715BE8F002296E7 /* osgdb_deprecated_osg.so */; };
-		ADC43AD51715BE90002296E7 /* osgdb_deprecated_osganimation.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A861715BE8F002296E7 /* osgdb_deprecated_osganimation.so */; };
-		ADC43AD61715BE90002296E7 /* osgdb_deprecated_osgfx.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A871715BE8F002296E7 /* osgdb_deprecated_osgfx.so */; };
-		ADC43AD71715BE90002296E7 /* osgdb_deprecated_osgparticle.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A881715BE8F002296E7 /* osgdb_deprecated_osgparticle.so */; };
-		ADC43AD81715BE90002296E7 /* osgdb_deprecated_osgshadow.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A891715BE8F002296E7 /* osgdb_deprecated_osgshadow.so */; };
-		ADC43AD91715BE90002296E7 /* osgdb_deprecated_osgsim.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A8A1715BE8F002296E7 /* osgdb_deprecated_osgsim.so */; };
-		ADC43ADA1715BE90002296E7 /* osgdb_deprecated_osgterrain.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A8B1715BE8F002296E7 /* osgdb_deprecated_osgterrain.so */; };
-		ADC43ADB1715BE90002296E7 /* osgdb_deprecated_osgtext.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A8C1715BE8F002296E7 /* osgdb_deprecated_osgtext.so */; };
-		ADC43ADC1715BE90002296E7 /* osgdb_deprecated_osgviewer.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A8D1715BE8F002296E7 /* osgdb_deprecated_osgviewer.so */; };
-		ADC43ADD1715BE90002296E7 /* osgdb_deprecated_osgvolume.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A8E1715BE8F002296E7 /* osgdb_deprecated_osgvolume.so */; };
-		ADC43ADE1715BE90002296E7 /* osgdb_deprecated_osgwidget.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A8F1715BE8F002296E7 /* osgdb_deprecated_osgwidget.so */; };
-		ADC43ADF1715BE90002296E7 /* osgdb_dicom.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A901715BE8F002296E7 /* osgdb_dicom.so */; };
-		ADC43AE01715BE90002296E7 /* osgdb_dot.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A911715BE8F002296E7 /* osgdb_dot.so */; };
-		ADC43AE11715BE90002296E7 /* osgdb_dw.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A921715BE8F002296E7 /* osgdb_dw.so */; };
-		ADC43AE21715BE90002296E7 /* osgdb_dxf.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A931715BE8F002296E7 /* osgdb_dxf.so */; };
-		ADC43AE31715BE90002296E7 /* osgdb_exr.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A941715BE8F002296E7 /* osgdb_exr.so */; };
-		ADC43AE41715BE90002296E7 /* osgdb_freetype.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A951715BE8F002296E7 /* osgdb_freetype.so */; };
-		ADC43AE51715BE90002296E7 /* osgdb_gdal.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A961715BE8F002296E7 /* osgdb_gdal.so */; };
-		ADC43AE61715BE90002296E7 /* osgdb_geo.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A971715BE8F002296E7 /* osgdb_geo.so */; };
-		ADC43AE71715BE90002296E7 /* osgdb_glsl.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A981715BE8F002296E7 /* osgdb_glsl.so */; };
-		ADC43AE81715BE90002296E7 /* osgdb_gz.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A991715BE8F002296E7 /* osgdb_gz.so */; };
-		ADC43AE91715BE90002296E7 /* osgdb_hdr.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A9A1715BE8F002296E7 /* osgdb_hdr.so */; };
-		ADC43AEA1715BE90002296E7 /* osgdb_imageio.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A9B1715BE8F002296E7 /* osgdb_imageio.so */; };
-		ADC43AEB1715BE90002296E7 /* osgdb_ive.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A9C1715BE8F002296E7 /* osgdb_ive.so */; };
-		ADC43AEC1715BE90002296E7 /* osgdb_jp2.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A9D1715BE8F002296E7 /* osgdb_jp2.so */; };
-		ADC43AED1715BE90002296E7 /* osgdb_logo.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A9E1715BE8F002296E7 /* osgdb_logo.so */; };
-		ADC43AEE1715BE90002296E7 /* osgdb_lwo.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43A9F1715BE8F002296E7 /* osgdb_lwo.so */; };
-		ADC43AEF1715BE90002296E7 /* osgdb_lws.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43AA01715BE8F002296E7 /* osgdb_lws.so */; };
-		ADC43AF01715BE90002296E7 /* osgdb_md2.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43AA11715BE8F002296E7 /* osgdb_md2.so */; };
-		ADC43AF11715BE90002296E7 /* osgdb_mdl.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43AA21715BE8F002296E7 /* osgdb_mdl.so */; };
-		ADC43AF21715BE90002296E7 /* osgdb_normals.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43AA31715BE8F002296E7 /* osgdb_normals.so */; };
-		ADC43AF31715BE90002296E7 /* osgdb_obj.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43AA41715BE8F002296E7 /* osgdb_obj.so */; };
-		ADC43AF41715BE90002296E7 /* osgdb_ogr.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43AA51715BE8F002296E7 /* osgdb_ogr.so */; };
-		ADC43AF51715BE90002296E7 /* osgdb_openflight.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43AA61715BE8F002296E7 /* osgdb_openflight.so */; };
-		ADC43AF61715BE90002296E7 /* osgdb_osg.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43AA71715BE8F002296E7 /* osgdb_osg.so */; };
-		ADC43AF71715BE90002296E7 /* osgdb_osga.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43AA81715BE8F002296E7 /* osgdb_osga.so */; };
-		ADC43AF81715BE90002296E7 /* osgdb_osgshadow.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43AA91715BE8F002296E7 /* osgdb_osgshadow.so */; };
-		ADC43AF91715BE90002296E7 /* osgdb_osgterrain.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43AAA1715BE8F002296E7 /* osgdb_osgterrain.so */; };
-		ADC43AFA1715BE90002296E7 /* osgdb_osgtgz.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43AAB1715BE8F002296E7 /* osgdb_osgtgz.so */; };
-		ADC43AFB1715BE90002296E7 /* osgdb_osgviewer.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43AAC1715BE8F002296E7 /* osgdb_osgviewer.so */; };
-		ADC43AFC1715BE90002296E7 /* osgdb_p3d.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43AAD1715BE8F002296E7 /* osgdb_p3d.so */; };
-		ADC43AFD1715BE90002296E7 /* osgdb_pic.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43AAE1715BE8F002296E7 /* osgdb_pic.so */; };
-		ADC43AFE1715BE90002296E7 /* osgdb_ply.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43AAF1715BE8F002296E7 /* osgdb_ply.so */; };
-		ADC43AFF1715BE90002296E7 /* osgdb_pnm.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43AB01715BE8F002296E7 /* osgdb_pnm.so */; };
-		ADC43B001715BE90002296E7 /* osgdb_pov.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43AB11715BE8F002296E7 /* osgdb_pov.so */; };
-		ADC43B011715BE90002296E7 /* osgdb_pvr.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43AB21715BE8F002296E7 /* osgdb_pvr.so */; };
-		ADC43B021715BE90002296E7 /* osgdb_revisions.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43AB31715BE8F002296E7 /* osgdb_revisions.so */; };
-		ADC43B031715BE90002296E7 /* osgdb_rgb.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43AB41715BE8F002296E7 /* osgdb_rgb.so */; };
-		ADC43B041715BE90002296E7 /* osgdb_rot.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43AB51715BE8F002296E7 /* osgdb_rot.so */; };
-		ADC43B051715BE90002296E7 /* osgdb_scale.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43AB61715BE8F002296E7 /* osgdb_scale.so */; };
-		ADC43B061715BE90002296E7 /* osgdb_serializers_osg.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43AB71715BE8F002296E7 /* osgdb_serializers_osg.so */; };
-		ADC43B071715BE90002296E7 /* osgdb_serializers_osganimation.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43AB81715BE8F002296E7 /* osgdb_serializers_osganimation.so */; };
-		ADC43B081715BE90002296E7 /* osgdb_serializers_osgfx.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43AB91715BE90002296E7 /* osgdb_serializers_osgfx.so */; };
-		ADC43B091715BE90002296E7 /* osgdb_serializers_osgmanipulator.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43ABA1715BE90002296E7 /* osgdb_serializers_osgmanipulator.so */; };
-		ADC43B0A1715BE90002296E7 /* osgdb_serializers_osgparticle.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43ABB1715BE90002296E7 /* osgdb_serializers_osgparticle.so */; };
-		ADC43B0B1715BE90002296E7 /* osgdb_serializers_osgshadow.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43ABC1715BE90002296E7 /* osgdb_serializers_osgshadow.so */; };
-		ADC43B0C1715BE90002296E7 /* osgdb_serializers_osgsim.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43ABD1715BE90002296E7 /* osgdb_serializers_osgsim.so */; };
-		ADC43B0D1715BE90002296E7 /* osgdb_serializers_osgterrain.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43ABE1715BE90002296E7 /* osgdb_serializers_osgterrain.so */; };
-		ADC43B0E1715BE90002296E7 /* osgdb_serializers_osgtext.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43ABF1715BE90002296E7 /* osgdb_serializers_osgtext.so */; };
-		ADC43B0F1715BE90002296E7 /* osgdb_serializers_osgvolume.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43AC01715BE90002296E7 /* osgdb_serializers_osgvolume.so */; };
-		ADC43B101715BE90002296E7 /* osgdb_shp.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43AC11715BE90002296E7 /* osgdb_shp.so */; };
-		ADC43B111715BE90002296E7 /* osgdb_stl.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43AC21715BE90002296E7 /* osgdb_stl.so */; };
-		ADC43B121715BE90002296E7 /* osgdb_tga.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43AC31715BE90002296E7 /* osgdb_tga.so */; };
-		ADC43B131715BE90002296E7 /* osgdb_tgz.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43AC41715BE90002296E7 /* osgdb_tgz.so */; };
-		ADC43B141715BE90002296E7 /* osgdb_trans.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43AC51715BE90002296E7 /* osgdb_trans.so */; };
-		ADC43B151715BE90002296E7 /* osgdb_txf.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43AC61715BE90002296E7 /* osgdb_txf.so */; };
-		ADC43B161715BE90002296E7 /* osgdb_txp.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43AC71715BE90002296E7 /* osgdb_txp.so */; };
-		ADC43B171715BE90002296E7 /* osgdb_vtf.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43AC81715BE90002296E7 /* osgdb_vtf.so */; };
-		ADC43B181715BE90002296E7 /* osgdb_x.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43AC91715BE90002296E7 /* osgdb_x.so */; };
-		ADC43B191715BE90002296E7 /* osgdb_zip.so in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC43ACA1715BE90002296E7 /* osgdb_zip.so */; };
+		ADF19FDE173C001400DC2902 /* InitHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADF19FDC173C001400DC2902 /* InitHelper.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -159,13 +97,54 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AD32AEEA1715F78500F7DE2A /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		AD32AEEC1715F78D00F7DE2A /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
-		AD74082B172A48D4005FEA97 /* raaOSGPrintVisitor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = raaOSGPrintVisitor.cpp; path = testlibx/raaOSGPrintVisitor.cpp; sourceTree = "<group>"; };
-		AD74082C172A48D4005FEA97 /* raaOSGPrintVisitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = raaOSGPrintVisitor.h; path = testlibx/raaOSGPrintVisitor.h; sourceTree = "<group>"; };
-		AD74082D172A48D4005FEA97 /* raaOSGSimpleDemo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = raaOSGSimpleDemo.cpp; path = testlibx/raaOSGSimpleDemo.cpp; sourceTree = "<group>"; };
-		AD74082E172A48D4005FEA97 /* raaOSGSimpleEventHandler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = raaOSGSimpleEventHandler.cpp; path = testlibx/raaOSGSimpleEventHandler.cpp; sourceTree = "<group>"; };
-		AD74082F172A48D4005FEA97 /* raaOSGSimpleEventHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = raaOSGSimpleEventHandler.h; path = testlibx/raaOSGSimpleEventHandler.h; sourceTree = "<group>"; };
+		AD041FD5172FA71800FE891A /* InitVisitor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InitVisitor.cpp; sourceTree = "<group>"; };
+		AD041FD6172FA71800FE891A /* InitVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitVisitor.h; sourceTree = "<group>"; };
+		AD7409C2172CC0CA005FEA97 /* FindNodeVisitor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FindNodeVisitor.cpp; sourceTree = "<group>"; };
+		AD7409C3172CC0CA005FEA97 /* FindNodeVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindNodeVisitor.h; sourceTree = "<group>"; };
+		AD7409C5172CC3D5005FEA97 /* RobotUpdator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RobotUpdator.cpp; sourceTree = "<group>"; };
+		AD7409C6172CC3D5005FEA97 /* RobotUpdator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RobotUpdator.h; sourceTree = "<group>"; };
+		AD7409CC172E5503005FEA97 /* RobotHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RobotHandler.cpp; sourceTree = "<group>"; };
+		AD7409CD172E5503005FEA97 /* RobotHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RobotHandler.h; sourceTree = "<group>"; };
+		AD7409D0172E977C005FEA97 /* Commander.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Commander.h; sourceTree = "<group>"; };
+		AD7409D2172E9E8D005FEA97 /* Commander.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Commander.cpp; sourceTree = "<group>"; };
+		ADBB65981736708200C88086 /* RobotCallback.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RobotCallback.cpp; sourceTree = "<group>"; };
+		ADBB65991736708200C88086 /* RobotCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RobotCallback.h; sourceTree = "<group>"; };
+		ADBB66FD17381F9200C88086 /* OSGShape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OSGShape.cpp; sourceTree = "<group>"; };
+		ADBB66FE17381F9200C88086 /* OSGShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSGShape.h; sourceTree = "<group>"; };
+		ADBB670017382E0100C88086 /* util */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = util; sourceTree = "<group>"; };
+		ADBB67101739CD7B00C88086 /* AddEventHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AddEventHandler.cpp; sourceTree = "<group>"; };
+		ADBB67111739CD7C00C88086 /* AddEventHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEventHandler.h; sourceTree = "<group>"; };
+		ADBB6713173A2E2800C88086 /* OSGGeometry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OSGGeometry.cpp; sourceTree = "<group>"; };
+		ADBB6714173A2E2800C88086 /* OSGGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSGGeometry.h; sourceTree = "<group>"; };
+		ADBB6716173A328F00C88086 /* OSGDrawable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OSGDrawable.cpp; sourceTree = "<group>"; };
+		ADBB6717173A328F00C88086 /* OSGDrawable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSGDrawable.h; sourceTree = "<group>"; };
+		ADBB671C173A8BBC00C88086 /* type.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = type.h; sourceTree = "<group>"; };
+		ADBB671D173A9F9F00C88086 /* PickerHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PickerHandler.cpp; sourceTree = "<group>"; };
+		ADBB671E173A9FA000C88086 /* PickerHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerHandler.h; sourceTree = "<group>"; };
+		ADBB6720173AB8B600C88086 /* DeSelectVisitor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DeSelectVisitor.cpp; sourceTree = "<group>"; };
+		ADBB6721173AB8B700C88086 /* DeSelectVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeSelectVisitor.h; sourceTree = "<group>"; };
+		ADBB6723173AD37000C88086 /* CameraRecordHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CameraRecordHandler.cpp; sourceTree = "<group>"; };
+		ADBB6724173AD37100C88086 /* CameraRecordHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraRecordHandler.h; sourceTree = "<group>"; };
+		ADBB6726173ADBB800C88086 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		ADBB6727173ADBB800C88086 /* PrintVisitor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PrintVisitor.cpp; sourceTree = "<group>"; };
+		ADBB6728173ADBB900C88086 /* PrintVisitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrintVisitor.h; sourceTree = "<group>"; };
+		ADBB6729173ADBBA00C88086 /* SimpleEventHandler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleEventHandler.cpp; sourceTree = "<group>"; };
+		ADBB672A173ADBBB00C88086 /* SimpleEventHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleEventHandler.h; sourceTree = "<group>"; };
+		ADBB672E173AE39700C88086 /* FxHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FxHandler.cpp; sourceTree = "<group>"; };
+		ADBB672F173AE39800C88086 /* FxHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FxHandler.h; sourceTree = "<group>"; };
+		ADBB6731173AE89100C88086 /* OSGFx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OSGFx.cpp; sourceTree = "<group>"; };
+		ADBB6732173AE89200C88086 /* OSGFx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSGFx.h; sourceTree = "<group>"; };
+		ADBB6734173B6FC000C88086 /* DraggerSwitch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DraggerSwitch.cpp; sourceTree = "<group>"; };
+		ADBB6735173B6FC100C88086 /* DraggerSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggerSwitch.h; sourceTree = "<group>"; };
+		ADBB673A173B741500C88086 /* OSGDraggers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OSGDraggers.cpp; sourceTree = "<group>"; };
+		ADBB673B173B741500C88086 /* OSGDraggers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSGDraggers.h; sourceTree = "<group>"; };
+		ADBB673D173B95D900C88086 /* DraggerSwitchHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DraggerSwitchHandler.cpp; sourceTree = "<group>"; };
+		ADBB673E173B95DA00C88086 /* DraggerSwitchHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggerSwitchHandler.h; sourceTree = "<group>"; };
+		ADBB6740173BA3F100C88086 /* FileHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileHandler.cpp; sourceTree = "<group>"; };
+		ADBB6741173BA3F200C88086 /* FileHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileHandler.h; sourceTree = "<group>"; };
+		ADBB6743173BA43600C88086 /* SaveVisitor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SaveVisitor.cpp; sourceTree = "<group>"; };
+		ADBB6744173BA43700C88086 /* SaveVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveVisitor.h; sourceTree = "<group>"; };
+		ADBB6749173BA9B200C88086 /* rapidjson */ = {isa = PBXFileReference; lastKnownFileType = folder; path = rapidjson; sourceTree = "<group>"; };
 		ADC43A081715BC7F002296E7 /* testlibx */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = testlibx; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC43A151715BCD3002296E7 /* libOpenThreads.2.6.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libOpenThreads.2.6.0.dylib; path = /usr/local/lib/libOpenThreads.2.6.0.dylib; sourceTree = "<absolute>"; };
 		ADC43A161715BCD3002296E7 /* libOpenThreads.12.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libOpenThreads.12.dylib; path = /usr/local/lib/libOpenThreads.12.dylib; sourceTree = "<absolute>"; };
@@ -218,85 +197,8 @@
 		ADC43A451715BCD3002296E7 /* libosgWidget.3.1.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libosgWidget.3.1.2.dylib; path = /usr/local/lib/libosgWidget.3.1.2.dylib; sourceTree = "<absolute>"; };
 		ADC43A461715BCD3002296E7 /* libosgWidget.92.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libosgWidget.92.dylib; path = /usr/local/lib/libosgWidget.92.dylib; sourceTree = "<absolute>"; };
 		ADC43A471715BCD3002296E7 /* libosgWidget.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libosgWidget.dylib; path = /usr/local/lib/libosgWidget.dylib; sourceTree = "<absolute>"; };
-		ADC43A7C1715BE8F002296E7 /* osgdb_3dc.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_3dc.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_3dc.so"; sourceTree = "<absolute>"; };
-		ADC43A7D1715BE8F002296E7 /* osgdb_3ds.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_3ds.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_3ds.so"; sourceTree = "<absolute>"; };
-		ADC43A7E1715BE8F002296E7 /* osgdb_ac.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_ac.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_ac.so"; sourceTree = "<absolute>"; };
-		ADC43A7F1715BE8F002296E7 /* osgdb_bmp.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_bmp.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_bmp.so"; sourceTree = "<absolute>"; };
-		ADC43A801715BE8F002296E7 /* osgdb_bsp.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_bsp.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_bsp.so"; sourceTree = "<absolute>"; };
-		ADC43A811715BE8F002296E7 /* osgdb_bvh.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_bvh.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_bvh.so"; sourceTree = "<absolute>"; };
-		ADC43A821715BE8F002296E7 /* osgdb_cfg.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_cfg.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_cfg.so"; sourceTree = "<absolute>"; };
-		ADC43A831715BE8F002296E7 /* osgdb_curl.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_curl.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_curl.so"; sourceTree = "<absolute>"; };
-		ADC43A841715BE8F002296E7 /* osgdb_dds.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_dds.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_dds.so"; sourceTree = "<absolute>"; };
-		ADC43A851715BE8F002296E7 /* osgdb_deprecated_osg.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_deprecated_osg.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_deprecated_osg.so"; sourceTree = "<absolute>"; };
-		ADC43A861715BE8F002296E7 /* osgdb_deprecated_osganimation.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_deprecated_osganimation.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_deprecated_osganimation.so"; sourceTree = "<absolute>"; };
-		ADC43A871715BE8F002296E7 /* osgdb_deprecated_osgfx.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_deprecated_osgfx.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_deprecated_osgfx.so"; sourceTree = "<absolute>"; };
-		ADC43A881715BE8F002296E7 /* osgdb_deprecated_osgparticle.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_deprecated_osgparticle.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_deprecated_osgparticle.so"; sourceTree = "<absolute>"; };
-		ADC43A891715BE8F002296E7 /* osgdb_deprecated_osgshadow.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_deprecated_osgshadow.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_deprecated_osgshadow.so"; sourceTree = "<absolute>"; };
-		ADC43A8A1715BE8F002296E7 /* osgdb_deprecated_osgsim.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_deprecated_osgsim.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_deprecated_osgsim.so"; sourceTree = "<absolute>"; };
-		ADC43A8B1715BE8F002296E7 /* osgdb_deprecated_osgterrain.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_deprecated_osgterrain.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_deprecated_osgterrain.so"; sourceTree = "<absolute>"; };
-		ADC43A8C1715BE8F002296E7 /* osgdb_deprecated_osgtext.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_deprecated_osgtext.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_deprecated_osgtext.so"; sourceTree = "<absolute>"; };
-		ADC43A8D1715BE8F002296E7 /* osgdb_deprecated_osgviewer.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_deprecated_osgviewer.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_deprecated_osgviewer.so"; sourceTree = "<absolute>"; };
-		ADC43A8E1715BE8F002296E7 /* osgdb_deprecated_osgvolume.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_deprecated_osgvolume.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_deprecated_osgvolume.so"; sourceTree = "<absolute>"; };
-		ADC43A8F1715BE8F002296E7 /* osgdb_deprecated_osgwidget.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_deprecated_osgwidget.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_deprecated_osgwidget.so"; sourceTree = "<absolute>"; };
-		ADC43A901715BE8F002296E7 /* osgdb_dicom.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_dicom.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_dicom.so"; sourceTree = "<absolute>"; };
-		ADC43A911715BE8F002296E7 /* osgdb_dot.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_dot.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_dot.so"; sourceTree = "<absolute>"; };
-		ADC43A921715BE8F002296E7 /* osgdb_dw.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_dw.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_dw.so"; sourceTree = "<absolute>"; };
-		ADC43A931715BE8F002296E7 /* osgdb_dxf.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_dxf.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_dxf.so"; sourceTree = "<absolute>"; };
-		ADC43A941715BE8F002296E7 /* osgdb_exr.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_exr.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_exr.so"; sourceTree = "<absolute>"; };
-		ADC43A951715BE8F002296E7 /* osgdb_freetype.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_freetype.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_freetype.so"; sourceTree = "<absolute>"; };
-		ADC43A961715BE8F002296E7 /* osgdb_gdal.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_gdal.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_gdal.so"; sourceTree = "<absolute>"; };
-		ADC43A971715BE8F002296E7 /* osgdb_geo.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_geo.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_geo.so"; sourceTree = "<absolute>"; };
-		ADC43A981715BE8F002296E7 /* osgdb_glsl.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_glsl.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_glsl.so"; sourceTree = "<absolute>"; };
-		ADC43A991715BE8F002296E7 /* osgdb_gz.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_gz.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_gz.so"; sourceTree = "<absolute>"; };
-		ADC43A9A1715BE8F002296E7 /* osgdb_hdr.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_hdr.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_hdr.so"; sourceTree = "<absolute>"; };
-		ADC43A9B1715BE8F002296E7 /* osgdb_imageio.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_imageio.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_imageio.so"; sourceTree = "<absolute>"; };
-		ADC43A9C1715BE8F002296E7 /* osgdb_ive.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_ive.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_ive.so"; sourceTree = "<absolute>"; };
-		ADC43A9D1715BE8F002296E7 /* osgdb_jp2.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_jp2.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_jp2.so"; sourceTree = "<absolute>"; };
-		ADC43A9E1715BE8F002296E7 /* osgdb_logo.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_logo.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_logo.so"; sourceTree = "<absolute>"; };
-		ADC43A9F1715BE8F002296E7 /* osgdb_lwo.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_lwo.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_lwo.so"; sourceTree = "<absolute>"; };
-		ADC43AA01715BE8F002296E7 /* osgdb_lws.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_lws.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_lws.so"; sourceTree = "<absolute>"; };
-		ADC43AA11715BE8F002296E7 /* osgdb_md2.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_md2.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_md2.so"; sourceTree = "<absolute>"; };
-		ADC43AA21715BE8F002296E7 /* osgdb_mdl.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_mdl.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_mdl.so"; sourceTree = "<absolute>"; };
-		ADC43AA31715BE8F002296E7 /* osgdb_normals.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_normals.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_normals.so"; sourceTree = "<absolute>"; };
-		ADC43AA41715BE8F002296E7 /* osgdb_obj.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_obj.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_obj.so"; sourceTree = "<absolute>"; };
-		ADC43AA51715BE8F002296E7 /* osgdb_ogr.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_ogr.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_ogr.so"; sourceTree = "<absolute>"; };
-		ADC43AA61715BE8F002296E7 /* osgdb_openflight.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_openflight.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_openflight.so"; sourceTree = "<absolute>"; };
-		ADC43AA71715BE8F002296E7 /* osgdb_osg.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_osg.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_osg.so"; sourceTree = "<absolute>"; };
-		ADC43AA81715BE8F002296E7 /* osgdb_osga.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_osga.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_osga.so"; sourceTree = "<absolute>"; };
-		ADC43AA91715BE8F002296E7 /* osgdb_osgshadow.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_osgshadow.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_osgshadow.so"; sourceTree = "<absolute>"; };
-		ADC43AAA1715BE8F002296E7 /* osgdb_osgterrain.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_osgterrain.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_osgterrain.so"; sourceTree = "<absolute>"; };
-		ADC43AAB1715BE8F002296E7 /* osgdb_osgtgz.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_osgtgz.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_osgtgz.so"; sourceTree = "<absolute>"; };
-		ADC43AAC1715BE8F002296E7 /* osgdb_osgviewer.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_osgviewer.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_osgviewer.so"; sourceTree = "<absolute>"; };
-		ADC43AAD1715BE8F002296E7 /* osgdb_p3d.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_p3d.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_p3d.so"; sourceTree = "<absolute>"; };
-		ADC43AAE1715BE8F002296E7 /* osgdb_pic.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_pic.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_pic.so"; sourceTree = "<absolute>"; };
-		ADC43AAF1715BE8F002296E7 /* osgdb_ply.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_ply.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_ply.so"; sourceTree = "<absolute>"; };
-		ADC43AB01715BE8F002296E7 /* osgdb_pnm.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_pnm.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_pnm.so"; sourceTree = "<absolute>"; };
-		ADC43AB11715BE8F002296E7 /* osgdb_pov.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_pov.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_pov.so"; sourceTree = "<absolute>"; };
-		ADC43AB21715BE8F002296E7 /* osgdb_pvr.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_pvr.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_pvr.so"; sourceTree = "<absolute>"; };
-		ADC43AB31715BE8F002296E7 /* osgdb_revisions.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_revisions.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_revisions.so"; sourceTree = "<absolute>"; };
-		ADC43AB41715BE8F002296E7 /* osgdb_rgb.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_rgb.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_rgb.so"; sourceTree = "<absolute>"; };
-		ADC43AB51715BE8F002296E7 /* osgdb_rot.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_rot.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_rot.so"; sourceTree = "<absolute>"; };
-		ADC43AB61715BE8F002296E7 /* osgdb_scale.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_scale.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_scale.so"; sourceTree = "<absolute>"; };
-		ADC43AB71715BE8F002296E7 /* osgdb_serializers_osg.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_serializers_osg.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_serializers_osg.so"; sourceTree = "<absolute>"; };
-		ADC43AB81715BE8F002296E7 /* osgdb_serializers_osganimation.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_serializers_osganimation.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_serializers_osganimation.so"; sourceTree = "<absolute>"; };
-		ADC43AB91715BE90002296E7 /* osgdb_serializers_osgfx.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_serializers_osgfx.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_serializers_osgfx.so"; sourceTree = "<absolute>"; };
-		ADC43ABA1715BE90002296E7 /* osgdb_serializers_osgmanipulator.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_serializers_osgmanipulator.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_serializers_osgmanipulator.so"; sourceTree = "<absolute>"; };
-		ADC43ABB1715BE90002296E7 /* osgdb_serializers_osgparticle.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_serializers_osgparticle.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_serializers_osgparticle.so"; sourceTree = "<absolute>"; };
-		ADC43ABC1715BE90002296E7 /* osgdb_serializers_osgshadow.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_serializers_osgshadow.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_serializers_osgshadow.so"; sourceTree = "<absolute>"; };
-		ADC43ABD1715BE90002296E7 /* osgdb_serializers_osgsim.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_serializers_osgsim.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_serializers_osgsim.so"; sourceTree = "<absolute>"; };
-		ADC43ABE1715BE90002296E7 /* osgdb_serializers_osgterrain.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_serializers_osgterrain.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_serializers_osgterrain.so"; sourceTree = "<absolute>"; };
-		ADC43ABF1715BE90002296E7 /* osgdb_serializers_osgtext.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_serializers_osgtext.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_serializers_osgtext.so"; sourceTree = "<absolute>"; };
-		ADC43AC01715BE90002296E7 /* osgdb_serializers_osgvolume.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_serializers_osgvolume.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_serializers_osgvolume.so"; sourceTree = "<absolute>"; };
-		ADC43AC11715BE90002296E7 /* osgdb_shp.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_shp.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_shp.so"; sourceTree = "<absolute>"; };
-		ADC43AC21715BE90002296E7 /* osgdb_stl.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_stl.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_stl.so"; sourceTree = "<absolute>"; };
-		ADC43AC31715BE90002296E7 /* osgdb_tga.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_tga.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_tga.so"; sourceTree = "<absolute>"; };
-		ADC43AC41715BE90002296E7 /* osgdb_tgz.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_tgz.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_tgz.so"; sourceTree = "<absolute>"; };
-		ADC43AC51715BE90002296E7 /* osgdb_trans.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_trans.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_trans.so"; sourceTree = "<absolute>"; };
-		ADC43AC61715BE90002296E7 /* osgdb_txf.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_txf.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_txf.so"; sourceTree = "<absolute>"; };
-		ADC43AC71715BE90002296E7 /* osgdb_txp.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_txp.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_txp.so"; sourceTree = "<absolute>"; };
-		ADC43AC81715BE90002296E7 /* osgdb_vtf.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_vtf.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_vtf.so"; sourceTree = "<absolute>"; };
-		ADC43AC91715BE90002296E7 /* osgdb_x.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_x.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_x.so"; sourceTree = "<absolute>"; };
-		ADC43ACA1715BE90002296E7 /* osgdb_zip.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = osgdb_zip.so; path = "/usr/local/Cellar/open-scene-graph/3.1.2/lib/osgPlugins-3.1.2/osgdb_zip.so"; sourceTree = "<absolute>"; };
+		ADF19FDC173C001400DC2902 /* InitHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InitHelper.cpp; sourceTree = "<group>"; };
+		ADF19FDD173C001400DC2902 /* InitHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitHelper.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -304,8 +206,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD32AEED1715F78D00F7DE2A /* GLUT.framework in Frameworks */,
-				AD32AEEB1715F78500F7DE2A /* OpenGL.framework in Frameworks */,
 				ADC43A491715BCD3002296E7 /* libOpenThreads.2.6.0.dylib in Frameworks */,
 				ADC43A4A1715BCD3002296E7 /* libOpenThreads.12.dylib in Frameworks */,
 				ADC43A4B1715BCD3002296E7 /* libOpenThreads.dylib in Frameworks */,
@@ -314,85 +214,6 @@
 				ADC43A4E1715BCD3002296E7 /* libosg.dylib in Frameworks */,
 				ADC43A4F1715BCD3002296E7 /* libosgAnimation.3.1.2.dylib in Frameworks */,
 				ADC43A501715BCD3002296E7 /* libosgAnimation.92.dylib in Frameworks */,
-				ADC43ACB1715BE90002296E7 /* osgdb_3dc.so in Frameworks */,
-				ADC43ACC1715BE90002296E7 /* osgdb_3ds.so in Frameworks */,
-				ADC43ACD1715BE90002296E7 /* osgdb_ac.so in Frameworks */,
-				ADC43ACE1715BE90002296E7 /* osgdb_bmp.so in Frameworks */,
-				ADC43ACF1715BE90002296E7 /* osgdb_bsp.so in Frameworks */,
-				ADC43AD01715BE90002296E7 /* osgdb_bvh.so in Frameworks */,
-				ADC43AD11715BE90002296E7 /* osgdb_cfg.so in Frameworks */,
-				ADC43AD21715BE90002296E7 /* osgdb_curl.so in Frameworks */,
-				ADC43AD31715BE90002296E7 /* osgdb_dds.so in Frameworks */,
-				ADC43AD41715BE90002296E7 /* osgdb_deprecated_osg.so in Frameworks */,
-				ADC43AD51715BE90002296E7 /* osgdb_deprecated_osganimation.so in Frameworks */,
-				ADC43AD61715BE90002296E7 /* osgdb_deprecated_osgfx.so in Frameworks */,
-				ADC43AD71715BE90002296E7 /* osgdb_deprecated_osgparticle.so in Frameworks */,
-				ADC43AD81715BE90002296E7 /* osgdb_deprecated_osgshadow.so in Frameworks */,
-				ADC43AD91715BE90002296E7 /* osgdb_deprecated_osgsim.so in Frameworks */,
-				ADC43ADA1715BE90002296E7 /* osgdb_deprecated_osgterrain.so in Frameworks */,
-				ADC43ADB1715BE90002296E7 /* osgdb_deprecated_osgtext.so in Frameworks */,
-				ADC43ADC1715BE90002296E7 /* osgdb_deprecated_osgviewer.so in Frameworks */,
-				ADC43ADD1715BE90002296E7 /* osgdb_deprecated_osgvolume.so in Frameworks */,
-				ADC43ADE1715BE90002296E7 /* osgdb_deprecated_osgwidget.so in Frameworks */,
-				ADC43ADF1715BE90002296E7 /* osgdb_dicom.so in Frameworks */,
-				ADC43AE01715BE90002296E7 /* osgdb_dot.so in Frameworks */,
-				ADC43AE11715BE90002296E7 /* osgdb_dw.so in Frameworks */,
-				ADC43AE21715BE90002296E7 /* osgdb_dxf.so in Frameworks */,
-				ADC43AE31715BE90002296E7 /* osgdb_exr.so in Frameworks */,
-				ADC43AE41715BE90002296E7 /* osgdb_freetype.so in Frameworks */,
-				ADC43AE51715BE90002296E7 /* osgdb_gdal.so in Frameworks */,
-				ADC43AE61715BE90002296E7 /* osgdb_geo.so in Frameworks */,
-				ADC43AE71715BE90002296E7 /* osgdb_glsl.so in Frameworks */,
-				ADC43AE81715BE90002296E7 /* osgdb_gz.so in Frameworks */,
-				ADC43AE91715BE90002296E7 /* osgdb_hdr.so in Frameworks */,
-				ADC43AEA1715BE90002296E7 /* osgdb_imageio.so in Frameworks */,
-				ADC43AEB1715BE90002296E7 /* osgdb_ive.so in Frameworks */,
-				ADC43AEC1715BE90002296E7 /* osgdb_jp2.so in Frameworks */,
-				ADC43AED1715BE90002296E7 /* osgdb_logo.so in Frameworks */,
-				ADC43AEE1715BE90002296E7 /* osgdb_lwo.so in Frameworks */,
-				ADC43AEF1715BE90002296E7 /* osgdb_lws.so in Frameworks */,
-				ADC43AF01715BE90002296E7 /* osgdb_md2.so in Frameworks */,
-				ADC43AF11715BE90002296E7 /* osgdb_mdl.so in Frameworks */,
-				ADC43AF21715BE90002296E7 /* osgdb_normals.so in Frameworks */,
-				ADC43AF31715BE90002296E7 /* osgdb_obj.so in Frameworks */,
-				ADC43AF41715BE90002296E7 /* osgdb_ogr.so in Frameworks */,
-				ADC43AF51715BE90002296E7 /* osgdb_openflight.so in Frameworks */,
-				ADC43AF61715BE90002296E7 /* osgdb_osg.so in Frameworks */,
-				ADC43AF71715BE90002296E7 /* osgdb_osga.so in Frameworks */,
-				ADC43AF81715BE90002296E7 /* osgdb_osgshadow.so in Frameworks */,
-				ADC43AF91715BE90002296E7 /* osgdb_osgterrain.so in Frameworks */,
-				ADC43AFA1715BE90002296E7 /* osgdb_osgtgz.so in Frameworks */,
-				ADC43AFB1715BE90002296E7 /* osgdb_osgviewer.so in Frameworks */,
-				ADC43AFC1715BE90002296E7 /* osgdb_p3d.so in Frameworks */,
-				ADC43AFD1715BE90002296E7 /* osgdb_pic.so in Frameworks */,
-				ADC43AFE1715BE90002296E7 /* osgdb_ply.so in Frameworks */,
-				ADC43AFF1715BE90002296E7 /* osgdb_pnm.so in Frameworks */,
-				ADC43B001715BE90002296E7 /* osgdb_pov.so in Frameworks */,
-				ADC43B011715BE90002296E7 /* osgdb_pvr.so in Frameworks */,
-				ADC43B021715BE90002296E7 /* osgdb_revisions.so in Frameworks */,
-				ADC43B031715BE90002296E7 /* osgdb_rgb.so in Frameworks */,
-				ADC43B041715BE90002296E7 /* osgdb_rot.so in Frameworks */,
-				ADC43B051715BE90002296E7 /* osgdb_scale.so in Frameworks */,
-				ADC43B061715BE90002296E7 /* osgdb_serializers_osg.so in Frameworks */,
-				ADC43B071715BE90002296E7 /* osgdb_serializers_osganimation.so in Frameworks */,
-				ADC43B081715BE90002296E7 /* osgdb_serializers_osgfx.so in Frameworks */,
-				ADC43B091715BE90002296E7 /* osgdb_serializers_osgmanipulator.so in Frameworks */,
-				ADC43B0A1715BE90002296E7 /* osgdb_serializers_osgparticle.so in Frameworks */,
-				ADC43B0B1715BE90002296E7 /* osgdb_serializers_osgshadow.so in Frameworks */,
-				ADC43B0C1715BE90002296E7 /* osgdb_serializers_osgsim.so in Frameworks */,
-				ADC43B0D1715BE90002296E7 /* osgdb_serializers_osgterrain.so in Frameworks */,
-				ADC43B0E1715BE90002296E7 /* osgdb_serializers_osgtext.so in Frameworks */,
-				ADC43B0F1715BE90002296E7 /* osgdb_serializers_osgvolume.so in Frameworks */,
-				ADC43B101715BE90002296E7 /* osgdb_shp.so in Frameworks */,
-				ADC43B111715BE90002296E7 /* osgdb_stl.so in Frameworks */,
-				ADC43B121715BE90002296E7 /* osgdb_tga.so in Frameworks */,
-				ADC43B131715BE90002296E7 /* osgdb_tgz.so in Frameworks */,
-				ADC43B141715BE90002296E7 /* osgdb_trans.so in Frameworks */,
-				ADC43B151715BE90002296E7 /* osgdb_txf.so in Frameworks */,
-				ADC43B161715BE90002296E7 /* osgdb_txp.so in Frameworks */,
-				ADC43B171715BE90002296E7 /* osgdb_vtf.so in Frameworks */,
-				ADC43B181715BE90002296E7 /* osgdb_x.so in Frameworks */,
-				ADC43B191715BE90002296E7 /* osgdb_zip.so in Frameworks */,
 				ADC43A511715BCD3002296E7 /* libosgAnimation.dylib in Frameworks */,
 				ADC43A521715BCD3002296E7 /* libosgDB.3.1.2.dylib in Frameworks */,
 				ADC43A531715BCD3002296E7 /* libosgDB.92.dylib in Frameworks */,
@@ -445,85 +266,6 @@
 		AD0BEA24171611A600DF4173 /* osgLib */ = {
 			isa = PBXGroup;
 			children = (
-				ADC43A7C1715BE8F002296E7 /* osgdb_3dc.so */,
-				ADC43A7D1715BE8F002296E7 /* osgdb_3ds.so */,
-				ADC43A7E1715BE8F002296E7 /* osgdb_ac.so */,
-				ADC43A7F1715BE8F002296E7 /* osgdb_bmp.so */,
-				ADC43A801715BE8F002296E7 /* osgdb_bsp.so */,
-				ADC43A811715BE8F002296E7 /* osgdb_bvh.so */,
-				ADC43A821715BE8F002296E7 /* osgdb_cfg.so */,
-				ADC43A831715BE8F002296E7 /* osgdb_curl.so */,
-				ADC43A841715BE8F002296E7 /* osgdb_dds.so */,
-				ADC43A851715BE8F002296E7 /* osgdb_deprecated_osg.so */,
-				ADC43A861715BE8F002296E7 /* osgdb_deprecated_osganimation.so */,
-				ADC43A871715BE8F002296E7 /* osgdb_deprecated_osgfx.so */,
-				ADC43A881715BE8F002296E7 /* osgdb_deprecated_osgparticle.so */,
-				ADC43A891715BE8F002296E7 /* osgdb_deprecated_osgshadow.so */,
-				ADC43A8A1715BE8F002296E7 /* osgdb_deprecated_osgsim.so */,
-				ADC43A8B1715BE8F002296E7 /* osgdb_deprecated_osgterrain.so */,
-				ADC43A8C1715BE8F002296E7 /* osgdb_deprecated_osgtext.so */,
-				ADC43A8D1715BE8F002296E7 /* osgdb_deprecated_osgviewer.so */,
-				ADC43A8E1715BE8F002296E7 /* osgdb_deprecated_osgvolume.so */,
-				ADC43A8F1715BE8F002296E7 /* osgdb_deprecated_osgwidget.so */,
-				ADC43A901715BE8F002296E7 /* osgdb_dicom.so */,
-				ADC43A911715BE8F002296E7 /* osgdb_dot.so */,
-				ADC43A921715BE8F002296E7 /* osgdb_dw.so */,
-				ADC43A931715BE8F002296E7 /* osgdb_dxf.so */,
-				ADC43A941715BE8F002296E7 /* osgdb_exr.so */,
-				ADC43A951715BE8F002296E7 /* osgdb_freetype.so */,
-				ADC43A961715BE8F002296E7 /* osgdb_gdal.so */,
-				ADC43A971715BE8F002296E7 /* osgdb_geo.so */,
-				ADC43A981715BE8F002296E7 /* osgdb_glsl.so */,
-				ADC43A991715BE8F002296E7 /* osgdb_gz.so */,
-				ADC43A9A1715BE8F002296E7 /* osgdb_hdr.so */,
-				ADC43A9B1715BE8F002296E7 /* osgdb_imageio.so */,
-				ADC43A9C1715BE8F002296E7 /* osgdb_ive.so */,
-				ADC43A9D1715BE8F002296E7 /* osgdb_jp2.so */,
-				ADC43A9E1715BE8F002296E7 /* osgdb_logo.so */,
-				ADC43A9F1715BE8F002296E7 /* osgdb_lwo.so */,
-				ADC43AA01715BE8F002296E7 /* osgdb_lws.so */,
-				ADC43AA11715BE8F002296E7 /* osgdb_md2.so */,
-				ADC43AA21715BE8F002296E7 /* osgdb_mdl.so */,
-				ADC43AA31715BE8F002296E7 /* osgdb_normals.so */,
-				ADC43AA41715BE8F002296E7 /* osgdb_obj.so */,
-				ADC43AA51715BE8F002296E7 /* osgdb_ogr.so */,
-				ADC43AA61715BE8F002296E7 /* osgdb_openflight.so */,
-				ADC43AA71715BE8F002296E7 /* osgdb_osg.so */,
-				ADC43AA81715BE8F002296E7 /* osgdb_osga.so */,
-				ADC43AA91715BE8F002296E7 /* osgdb_osgshadow.so */,
-				ADC43AAA1715BE8F002296E7 /* osgdb_osgterrain.so */,
-				ADC43AAB1715BE8F002296E7 /* osgdb_osgtgz.so */,
-				ADC43AAC1715BE8F002296E7 /* osgdb_osgviewer.so */,
-				ADC43AAD1715BE8F002296E7 /* osgdb_p3d.so */,
-				ADC43AAE1715BE8F002296E7 /* osgdb_pic.so */,
-				ADC43AAF1715BE8F002296E7 /* osgdb_ply.so */,
-				ADC43AB01715BE8F002296E7 /* osgdb_pnm.so */,
-				ADC43AB11715BE8F002296E7 /* osgdb_pov.so */,
-				ADC43AB21715BE8F002296E7 /* osgdb_pvr.so */,
-				ADC43AB31715BE8F002296E7 /* osgdb_revisions.so */,
-				ADC43AB41715BE8F002296E7 /* osgdb_rgb.so */,
-				ADC43AB51715BE8F002296E7 /* osgdb_rot.so */,
-				ADC43AB61715BE8F002296E7 /* osgdb_scale.so */,
-				ADC43AB71715BE8F002296E7 /* osgdb_serializers_osg.so */,
-				ADC43AB81715BE8F002296E7 /* osgdb_serializers_osganimation.so */,
-				ADC43AB91715BE90002296E7 /* osgdb_serializers_osgfx.so */,
-				ADC43ABA1715BE90002296E7 /* osgdb_serializers_osgmanipulator.so */,
-				ADC43ABB1715BE90002296E7 /* osgdb_serializers_osgparticle.so */,
-				ADC43ABC1715BE90002296E7 /* osgdb_serializers_osgshadow.so */,
-				ADC43ABD1715BE90002296E7 /* osgdb_serializers_osgsim.so */,
-				ADC43ABE1715BE90002296E7 /* osgdb_serializers_osgterrain.so */,
-				ADC43ABF1715BE90002296E7 /* osgdb_serializers_osgtext.so */,
-				ADC43AC01715BE90002296E7 /* osgdb_serializers_osgvolume.so */,
-				ADC43AC11715BE90002296E7 /* osgdb_shp.so */,
-				ADC43AC21715BE90002296E7 /* osgdb_stl.so */,
-				ADC43AC31715BE90002296E7 /* osgdb_tga.so */,
-				ADC43AC41715BE90002296E7 /* osgdb_tgz.so */,
-				ADC43AC51715BE90002296E7 /* osgdb_trans.so */,
-				ADC43AC61715BE90002296E7 /* osgdb_txf.so */,
-				ADC43AC71715BE90002296E7 /* osgdb_txp.so */,
-				ADC43AC81715BE90002296E7 /* osgdb_vtf.so */,
-				ADC43AC91715BE90002296E7 /* osgdb_x.so */,
-				ADC43ACA1715BE90002296E7 /* osgdb_zip.so */,
 				ADC43A151715BCD3002296E7 /* libOpenThreads.2.6.0.dylib */,
 				ADC43A161715BCD3002296E7 /* libOpenThreads.12.dylib */,
 				ADC43A171715BCD3002296E7 /* libOpenThreads.dylib */,
@@ -582,13 +324,56 @@
 		ADC439FF1715BC7F002296E7 = {
 			isa = PBXGroup;
 			children = (
-				AD74082B172A48D4005FEA97 /* raaOSGPrintVisitor.cpp */,
-				AD74082C172A48D4005FEA97 /* raaOSGPrintVisitor.h */,
-				AD74082D172A48D4005FEA97 /* raaOSGSimpleDemo.cpp */,
-				AD74082E172A48D4005FEA97 /* raaOSGSimpleEventHandler.cpp */,
-				AD74082F172A48D4005FEA97 /* raaOSGSimpleEventHandler.h */,
-				AD32AEEC1715F78D00F7DE2A /* GLUT.framework */,
-				AD32AEEA1715F78500F7DE2A /* OpenGL.framework */,
+				ADBB6749173BA9B200C88086 /* rapidjson */,
+				ADBB6740173BA3F100C88086 /* FileHandler.cpp */,
+				ADF19FDC173C001400DC2902 /* InitHelper.cpp */,
+				ADF19FDD173C001400DC2902 /* InitHelper.h */,
+				ADBB6741173BA3F200C88086 /* FileHandler.h */,
+				ADBB6743173BA43600C88086 /* SaveVisitor.cpp */,
+				ADBB6744173BA43700C88086 /* SaveVisitor.h */,
+				ADBB673A173B741500C88086 /* OSGDraggers.cpp */,
+				ADBB673B173B741500C88086 /* OSGDraggers.h */,
+				AD041FD6172FA71800FE891A /* InitVisitor.h */,
+				AD041FD5172FA71800FE891A /* InitVisitor.cpp */,
+				ADBB6734173B6FC000C88086 /* DraggerSwitch.cpp */,
+				ADBB6735173B6FC100C88086 /* DraggerSwitch.h */,
+				ADBB673D173B95D900C88086 /* DraggerSwitchHandler.cpp */,
+				ADBB673E173B95DA00C88086 /* DraggerSwitchHandler.h */,
+				ADBB671D173A9F9F00C88086 /* PickerHandler.cpp */,
+				ADBB671E173A9FA000C88086 /* PickerHandler.h */,
+				ADBB672E173AE39700C88086 /* FxHandler.cpp */,
+				ADBB672F173AE39800C88086 /* FxHandler.h */,
+				ADBB6731173AE89100C88086 /* OSGFx.cpp */,
+				ADBB6732173AE89200C88086 /* OSGFx.h */,
+				ADBB6724173AD37100C88086 /* CameraRecordHandler.h */,
+				ADBB6723173AD37000C88086 /* CameraRecordHandler.cpp */,
+				ADBB6720173AB8B600C88086 /* DeSelectVisitor.cpp */,
+				ADBB6721173AB8B700C88086 /* DeSelectVisitor.h */,
+				ADBB67101739CD7B00C88086 /* AddEventHandler.cpp */,
+				ADBB67111739CD7C00C88086 /* AddEventHandler.h */,
+				ADBB6726173ADBB800C88086 /* main.cpp */,
+				ADBB6727173ADBB800C88086 /* PrintVisitor.cpp */,
+				ADBB6728173ADBB900C88086 /* PrintVisitor.h */,
+				ADBB6729173ADBBA00C88086 /* SimpleEventHandler.cpp */,
+				ADBB672A173ADBBB00C88086 /* SimpleEventHandler.h */,
+				ADBB66FD17381F9200C88086 /* OSGShape.cpp */,
+				ADBB66FE17381F9200C88086 /* OSGShape.h */,
+				ADBB6716173A328F00C88086 /* OSGDrawable.cpp */,
+				ADBB6717173A328F00C88086 /* OSGDrawable.h */,
+				ADBB6713173A2E2800C88086 /* OSGGeometry.cpp */,
+				ADBB671C173A8BBC00C88086 /* type.h */,
+				ADBB6714173A2E2800C88086 /* OSGGeometry.h */,
+				ADBB670017382E0100C88086 /* util */,
+				ADBB65981736708200C88086 /* RobotCallback.cpp */,
+				ADBB65991736708200C88086 /* RobotCallback.h */,
+				AD7409D0172E977C005FEA97 /* Commander.h */,
+				AD7409D2172E9E8D005FEA97 /* Commander.cpp */,
+				AD7409C5172CC3D5005FEA97 /* RobotUpdator.cpp */,
+				AD7409C6172CC3D5005FEA97 /* RobotUpdator.h */,
+				AD7409CD172E5503005FEA97 /* RobotHandler.h */,
+				AD7409CC172E5503005FEA97 /* RobotHandler.cpp */,
+				AD7409C2172CC0CA005FEA97 /* FindNodeVisitor.cpp */,
+				AD7409C3172CC0CA005FEA97 /* FindNodeVisitor.h */,
 				AD0BEA24171611A600DF4173 /* osgLib */,
 				ADC43A0A1715BC7F002296E7 /* testlibx */,
 				ADC43A091715BC7F002296E7 /* Products */,
@@ -661,11 +446,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD740830172A490A005FEA97 /* raaOSGPrintVisitor.cpp in Sources */,
-				AD740831172A490A005FEA97 /* raaOSGPrintVisitor.h in Sources */,
-				AD740832172A490A005FEA97 /* raaOSGSimpleDemo.cpp in Sources */,
-				AD740833172A490A005FEA97 /* raaOSGSimpleEventHandler.cpp in Sources */,
-				AD740834172A490A005FEA97 /* raaOSGSimpleEventHandler.h in Sources */,
+				ADBB672B173ADC2700C88086 /* main.cpp in Sources */,
+				ADBB672C173ADC2700C88086 /* PrintVisitor.cpp in Sources */,
+				ADBB672D173ADC2700C88086 /* SimpleEventHandler.cpp in Sources */,
+				AD7409C4172CC0CA005FEA97 /* FindNodeVisitor.cpp in Sources */,
+				AD7409C7172CC3D5005FEA97 /* RobotUpdator.cpp in Sources */,
+				AD7409CE172E5503005FEA97 /* RobotHandler.cpp in Sources */,
+				AD7409D3172E9E8D005FEA97 /* Commander.cpp in Sources */,
+				AD041FD7172FA71800FE891A /* InitVisitor.cpp in Sources */,
+				ADBB659A1736708200C88086 /* RobotCallback.cpp in Sources */,
+				ADBB66FF17381F9200C88086 /* OSGShape.cpp in Sources */,
+				ADBB67121739CD7C00C88086 /* AddEventHandler.cpp in Sources */,
+				ADBB6715173A2E2800C88086 /* OSGGeometry.cpp in Sources */,
+				ADBB6718173A328F00C88086 /* OSGDrawable.cpp in Sources */,
+				ADBB671F173A9FA100C88086 /* PickerHandler.cpp in Sources */,
+				ADBB6722173AB8B700C88086 /* DeSelectVisitor.cpp in Sources */,
+				ADBB6725173AD37200C88086 /* CameraRecordHandler.cpp in Sources */,
+				ADBB6730173AE39900C88086 /* FxHandler.cpp in Sources */,
+				ADBB6733173AE89300C88086 /* OSGFx.cpp in Sources */,
+				ADBB6736173B6FC100C88086 /* DraggerSwitch.cpp in Sources */,
+				ADBB673C173B741600C88086 /* OSGDraggers.cpp in Sources */,
+				ADBB673F173B95DA00C88086 /* DraggerSwitchHandler.cpp in Sources */,
+				ADBB6742173BA3F200C88086 /* FileHandler.cpp in Sources */,
+				ADBB6745173BA43700C88086 /* SaveVisitor.cpp in Sources */,
+				ADF19FDE173C001400DC2902 /* InitHelper.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -732,7 +536,7 @@
 		ADC43A121715BC7F002296E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LIBRARY = "compiler-default";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = /usr/local/include;
@@ -745,7 +549,7 @@
 		ADC43A131715BC7F002296E7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LIBRARY = "compiler-default";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = /usr/local/include;
